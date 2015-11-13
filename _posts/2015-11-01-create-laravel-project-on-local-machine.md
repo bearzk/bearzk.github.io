@@ -49,6 +49,6 @@ $ cd myapp
 $ php artisan serve
 {% endhighlight %}
 
-yes, as this simple. I understand docs want to learner to have the exactly same
+yes, as this simple. I understand docs want learner to have the exactly same
 perfect env like an app would be deployed on. But for a total beginner, to actually
 start something is more important than knowing how it should be properly developed.
