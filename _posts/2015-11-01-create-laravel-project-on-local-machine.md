@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Create laravel project on local machine
-date: 2015-01-16 19:21:00.000000000 +01:00
+date: 2015-11-01 19:21:00.000000000 +01:00
 tags: PHP laravel OSX
 ---
 
