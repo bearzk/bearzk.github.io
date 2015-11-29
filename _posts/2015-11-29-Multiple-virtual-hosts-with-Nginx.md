@@ -95,7 +95,7 @@ What if we actually want to serve few dynamic sites? Of course that's also possb
 Inside each server block you need to tell nginx how should it talk to your apps,
 for example with following php app running with php-fpm:
 
-{% highlight php-fpm %}
+{% highlight bash %}
 listen = /path_to_php-fpm.sock
 {% endhighlight %}
 
