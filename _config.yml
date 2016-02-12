@@ -1,9 +1,9 @@
 # Site settings
-title: /home/bearzk
+title: /home/kaizhang
 email: kai.zhangxa@gmail.com
 description: "@bearzk's blog"
 baseurl: ""
-url: "http://bearzk.github.io" # the base hostname & protocol for your site
+url: "https://kaizhang.de" # the base hostname & protocol for your site
 
 # Sidebar filter
 # Choose 'tag' or 'category' as filter in sidebar.
