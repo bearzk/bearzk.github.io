@@ -1,6 +1,6 @@
 ---
 layout: post
-title: API Content Structures Pros & Cons
+title: API Content Structures Pros and Cons
 date: 2016-02-02 22:38:00.000000000 +01:00
 tags: API
 ---
