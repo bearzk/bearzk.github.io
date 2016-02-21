@@ -5,6 +5,8 @@ date: 2016-02-21 19:13:00.000000000 +01:00
 tags: AWS
 ---
 
+![please deploy](https://cloud.githubusercontent.com/assets/775611/13204595/1b16fa26-d8d4-11e5-81e2-5ca93371ab15.png)
+
 When we develop a feature, eventually we will want to see it running on a staging
 server and test it, or simply the code reviewer would like to do the same.
 
