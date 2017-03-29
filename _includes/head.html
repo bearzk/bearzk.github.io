@@ -7,12 +7,20 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600|Droid+Sans+Mono' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  {% capture styles %}
+    {% download https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600|Droid+Sans+Mono %}
+    {% include css/main.sass %}
+  {% endcapture %}
+  <style>{{ styles | scssify | strip }}</style>
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
-  <script src="{{ "/assets/js/prefixfree.js" | prepend: site.baseurl }}"></script>
+  {% capture scripts %}
+    {% include js/prefixfree.js %}
+  {% endcapture %}
+  <script>{{ scripts | uglify | strip }}</script>
+
   <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
   <script type="text/javascript">
     window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-bottom"};
