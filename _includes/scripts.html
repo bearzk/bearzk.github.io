@@ -4,7 +4,7 @@
   {% include js/nprogress.js %}
   {% include js/main.js %}
 {% endcapture %}
-<script>{{ scripts | uglify | strip }}</script>
+<script type="text/javascript">{{ scripts | uglify | strip }}</script>
 
 {% if site.google_analytics %}
 <script>
