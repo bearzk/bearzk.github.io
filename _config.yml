@@ -32,3 +32,4 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
+  - uglifier
