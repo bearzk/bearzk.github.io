@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/bearzk
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kaizhang.de
+  * I am bearzk (https://keybase.io/bearzk) on keybase.
+  * I have a public key ASDjzw-TaMo4c84Re_Czcx4NNdX8IqNmfbXTuXKBeyzo4Ao
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101b19899f05a90df32dcd8cd9e8906eadf9ff58d806706104ff644be01f20c45040a",
+            "host": "keybase.io",
+            "kid": "0120e3cf0f9368ca3873ce117bf0b3731e0d35d5fc22a3667db5d3b972817b2ce8e00a",
+            "uid": "fc076863ee6c0a516e10c8c15b2cd500",
+            "username": "bearzk"
+        },
+        "service": {
+            "hostname": "kaizhang.de",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.20"
+    },
+    "ctime": 1492194216,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1492194179,
+        "hash": "e44a9aabef048b917bb6994278089353ebb801afb9b446ace31ddaf18411be444e8581a68763a45274ab0f20fa4bef89a0ce450df3768ebbc5b3761c7357a898",
+        "seqno": 1019657
+    },
+    "prev": "e5236a55f2d9ac4c7d6c26f957584f4cb8c473c6981e009937b8c7771789ffee",
+    "seqno": 21,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg488Pk2jKOHPOEXvws3MeDTXV/CKjZn2107lygXss6OAKp3BheWxvYWTFAvN7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYjE5ODk5ZjA1YTkwZGYzMmRjZDhjZDllODkwNmVhZGY5ZmY1OGQ4MDY3MDYxMDRmZjY0NGJlMDFmMjBjNDUwNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZTNjZjBmOTM2OGNhMzg3M2NlMTE3YmYwYjM3MzFlMGQzNWQ1ZmMyMmEzNjY3ZGI1ZDNiOTcyODE3YjJjZThlMDBhIiwidWlkIjoiZmMwNzY4NjNlZTZjMGE1MTZlMTBjOGMxNWIyY2Q1MDAiLCJ1c2VybmFtZSI6ImJlYXJ6ayJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoia2FpemhhbmcuZGUiLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yMCJ9LCJjdGltZSI6MTQ5MjE5NDIxNiwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDkyMTk0MTc5LCJoYXNoIjoiZTQ0YTlhYWJlZjA0OGI5MTdiYjY5OTQyNzgwODkzNTNlYmI4MDFhZmI5YjQ0NmFjZTMxZGRhZjE4NDExYmU0NDRlODU4MWE2ODc2M2E0NTI3NGFiMGYyMGZhNGJlZjg5YTBjZTQ1MGRmMzc2OGViYmM1YjM3NjFjNzM1N2E4OTgiLCJzZXFubyI6MTAxOTY1N30sInByZXYiOiJlNTIzNmE1NWYyZDlhYzRjN2Q2YzI2Zjk1NzU4NGY0Y2I4YzQ3M2M2OTgxZTAwOTkzN2I4Yzc3NzE3ODlmZmVlIiwic2Vxbm8iOjIxLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQLCCa0yGAx1wxhxEChlFk5JMrgvEaF/Qxz59xcuPbVdOGJIoI2gI3jfKfK7bDPqhQwxvkC9bm3CSDppu0NsSlgKoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCAcCBWPe3kJgvY4XXzXEMyIWNEnbeg61l37VVoH9ZUvS6N0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bearzk
+
+==================================================================
