@@ -1,0 +1,50 @@
+misc:
+  languages:
+    - idiom: Chinese
+      level: Native
+
+    - idiom: English
+      level: Professional
+
+    - idiom: German
+      level: Proficient
+
+educations:
+    - degree: MSc in Computer Science
+      university: Otto-von-Guericke-Universität Magdeburg
+      time: 2009 - 2012
+    - degree: BSc in Electronic Information Engineering
+      university: Xi'an Shiyou University
+      time: 2003 - 2009
+
+experiences:
+    - role: Software Developer
+      time: 2014 - Present
+      company: Opendi AG, Munich
+      details:
+        - As a member of a small and pragmatic team, it is required to play many roles during a day of work.
+        - As new features came in, tasks are splitted immediately among members, considering everyone's skill set focus. When it's not some time pressuring task, we try to team up do some pair programming, so each of us knows more about the product and the tech behind. Recently we've been doing some TDD, and always tried to start with the higher level tests, to make sure no matter how deep down the mechanics change, the product works as expected.
+        - We use AWS heavily, from EC2 to S3, from Route53 to CloudFront and etc, and many in the experimental phase. To use all of these, I have to learn a lot during the work, how to do CI properly, how to automate our test tasks and deployment, how to utilize more of AWS. Recently I've been developing Node.js code to run on Lambda for some cron jobs, or the endpoints to take partner data, it's been quite a pleasure to learn and work with these new techs.
+        - There will always be some old code bases, besides maintaining them in a functional status, I try to refactor them into a more maintainable manner when I see such opportunity.
+
+skills:
+  - group: Backend
+    stacks:
+      - PHP, Laravel
+      - Node.js, Koajs, expressjs, aws-lambda
+      - Python, Django, Flask
+      - MySQL, Redis, CouchDB
+
+  - group: Frontend
+    stacks:
+      - Javascript, jQuery, Vue.js, gulp, webpack
+      - HTML5, CSS, Sass
+
+  - group: DevOps
+    stacks:
+      - AWS, Lambda, Elastickbeanstalk, Opsworks, Route53, SQS, Kinesis Stream
+
+  - group: Tooling
+    stacks:
+      - git, github
+      - CircleCI, GitlabCI

@@ -1,0 +1,119 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+
+<body>
+  <div class="container mx-auto py-12 sm:px-4 text-grey-darkest">
+    <!-- basic -->
+    <div class="mb-8">
+      <div class="mb-2">
+        <div class="name text-3xl">Kai Zhang</div>
+        <div class="tagline text-xl text-grey">Full Stack Developer</div>
+      </div>
+      <div class="contact text-grey">
+        <div class="mobile">
+          +4917693244017
+        </div>
+        <div class="email">
+          hi@kaizhang.de
+        </div>
+        <div class="twitter">
+          @bearzk
+        </div>
+      </div>
+    </div>
+
+    <!-- experiences -->
+    <div class="mb-4">
+      <div class="text-xl py-2 border-b">
+        Experiences
+      </div>
+      {% for experience in site.data.cv.experiences %}
+
+      <div class="my-3">
+        <div class="mb-2">
+          <div class="text-lg">
+            {{ experience.role }}
+          </div>
+          <div class="text-grey-dark">
+            {{ experience.time }}
+          </div>
+          <div class="text-grey-dark">
+            {{ experience.company }}
+          </div>
+        </div>
+        <div class="text-grey-dark">
+          {% for detail in experience.details %}
+            <p class="mb-1">{{ detail }}</p>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- education -->
+    <div class="mb-4">
+      <div class="text-xl py-2 border-b">
+        Educations
+      </div>
+      {% for education in site.data.cv.educations %}
+      <div class="my-3">
+        <div class="text-lg">
+          {{ education.degree }}
+        </div>
+        <div class="text-grey-dark">
+          <div>
+            {{ education.university }}
+          </div>
+          <div>
+            {{ education.time }}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- skills -->
+    <div class="mb-4">
+        <div class="text-xl py-2 border-b">
+          Skills
+        </div>
+        {% for skill in site.data.cv.skills %}
+        <div class="my-2">
+          <div class="mb-2 text-lg">
+            {{ skill.group }}:
+          </div>
+          {% for stack in skill.stacks %}
+          <div class="mb-1 text-grey-dark">
+            {{ stack }}
+          </div>
+          {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+
+    <!-- misc -->
+    <div class="mb-4">
+        <div class="text-xl py-2 border-b">
+          Misc
+        </div>
+        {% for language in site.data.cv.misc.languages %}
+        <div class="my-2">
+          <div class="mb-2 text-lg">
+            <div>
+              {{ language.idiom }}
+            </div>
+            <div class="mb-1 text-grey-dark">
+              {{ language.level }}
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+    </div>
+  </div>
+</body>
+
+</html>
